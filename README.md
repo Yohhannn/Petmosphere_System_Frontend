@@ -16,3 +16,13 @@
 Petmosphere aims to simplify pet adoption, promote responsible pet ownership, and help every pet find a loving home.  
 
 ---
+
+NOTE
+npx create-react-router@latest frontend
+cd frontend
+npm install tailwindcss @tailwindcss/vite
+npm install daisyui
+npm install react-router-dom
+npm run dev
+
+
