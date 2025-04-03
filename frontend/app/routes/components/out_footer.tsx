@@ -14,7 +14,7 @@ const Out_Footer = () => {
               <b className='hover:text-[#F69332]'>ABOUT OUR TEAM</b>
             </p>
           </a>
-          <p className="text-sm text-white items-center">
+          <p className="text-sm text-white items-center md:text-center">
             Join us in adopting pets and giving them a forever home!
           </p>
         </div>

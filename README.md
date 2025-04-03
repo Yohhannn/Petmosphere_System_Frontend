@@ -22,6 +22,7 @@ npx create-react-router@latest frontend
 cd frontend
 npm install tailwindcss @tailwindcss/vite
 npm install daisyui
+npm install animate.css --save
 npm install react-router-dom
 npm run dev
 

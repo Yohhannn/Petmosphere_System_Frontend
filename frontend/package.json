@@ -11,6 +11,7 @@
   "dependencies": {
     "@react-router/node": "^7.4.1",
     "@react-router/serve": "^7.4.1",
+    "animate.css": "^4.1.1",
     "daisyui": "^5.0.9",
     "isbot": "^5.1.17",
     "react": "^19.0.0",

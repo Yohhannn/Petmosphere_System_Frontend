@@ -13,36 +13,42 @@ export function meta() {
 const Landing: React.FC = () => {
   return (
     <>
-      <Out_Header />
+      {/* Sticky Header */}
+      <div className="fixed top-0 left-0 w-full z-50 bg-white shadow-md animate__animated animate__fadeIn">
+        <Out_Header />
+      </div>
+
+      {/* Full-Screen Background Image */}
       <div
-        className="flex flex-col items-center justify-center min-h-screen bg-white text-[#626262] px-4 md:px-10"
-        style={{ fontFamily: 'Public Sans, sans-serif' }}
+        className="min-h-screen bg-cover bg-center bg-no-repeat bg-[url('/main_assets/images/bg_landing_phone.svg')] sm:bg-[url('/main_assets/images/bg_landing.svg')] animate__fadeIn"
       >
-        {/* Hero Section with Text on Left and Image on Right */}
-        <div className="hero min-h-screen w-full flex flex-row items-center">
-          {/* Left Text Section */}
-          <div className="text-container w-full md:w-1/2 flex flex-col items-start justify-center p-6 space-y-6">
-            <h1 className="text-3xl md:text-5xl font-bold text-[#626262]">
-              Where Every Pet <br />
-              Finds a <br />
-              Loving Home
-            </h1>
-            <p className="text-lg md:text-xl font-Quicksand text-[#626262]">
-              Your journey to finding your perfect pet starts here. Browse, adopt, and make a difference today!
-            </p>
-            <div className="mt-8">
+        {/* Centered Container with Button Below Image */}
+        <div className="flex flex-col items-center justify-center min-h-screen text-[#F4F2F2] px-4 md:px-10 font-['Public_Sans',sans-serif] animate__animated animate__fadeIn">
+          {/* Image Above the Container - Responsive logic for title image */}
+          <picture className="w-full flex justify-center">
+            <source
+              media="(max-width: 640px)"
+              srcSet="/main_assets/images/title_landing_phone.svg"
+            />
+            <source
+              media="(min-width: 641px)"
+              srcSet="/main_assets/images/title_landing.svg"
+            />
+            <img
+              alt="Petmosphere Logo"
+              className="w-3/4 max-w-[500px] sm:w-3/4 sm:max-w-[600px] md:w-3/4 md:max-w-[700px] lg:w-3/4 lg:max-w-[800px] xl:w-3/4 xl:max-w-[900px] mx-auto mb-6 animate__animated animate__zoomIn"
+            />
+          </picture>
+
+          <div className="bg-white bg-opacity-90 px-8 py-10 text-center max-w-lg w-full animate__animated animate__zoomIn">
+            <div className="mt-4">
               <Link
                 to="/login"
-                className="btn btn-primary px-8 py-3 rounded-full text-lg font-semibold transition duration-300 transform hover:scale-105 bg-[#F69332] text-[#F4F2F2]"
+                className="w-full px-6 py-3 rounded-full text-lg font-semibold transition duration-300 transform bg-[#F69332] hover:bg-[#8E57B2] hover:text-white text-white scale-110"
               >
                 Get Started
               </Link>
             </div>
-          </div>
-
-          {/* Right Image Section with Gradient Fade */}
-          <div className="image-container w-full md:w-1/2 bg-cover bg-center h-full" style={{ backgroundImage: "url('main_assets/images/image_landing.png')" }}>
-            <div className="gradient-overlay w-full h-full bg-gradient-to-l from-white via-white to-transparent"></div>
           </div>
         </div>
       </div>
