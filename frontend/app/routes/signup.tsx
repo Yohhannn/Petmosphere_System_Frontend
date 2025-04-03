@@ -2,6 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import 'animate.css'; 
 
+export function meta() {
+  return [
+    { title: "( ✦ ) PETMOSPHERE - SIGNUP" },
+    { name: "description", content: "Create your account and start adopting a pet today!" },
+  ];
+}
+
 const SignUp: React.FC = () => {
   return (
     <div
