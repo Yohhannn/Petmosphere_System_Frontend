@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Out_Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const closeMenu = () => setIsMenuOpen(false);
+
+  const isActive = (path: string) => location.pathname === path;
 
   useEffect(() => {
     const handleResize = () => {
@@ -50,7 +53,7 @@ const Out_Header = () => {
 
             {/* Desktop Nav */}
             <ul className="hidden md:flex md:items-center md:space-x-6">
-              <li className="hover:text-[#F69332] transition">
+              <li className={`${isActive('/team') ? 'text-[#F69332]' : 'hover:text-[#F69332]'} transition`}>
                 <Link to="/team" className="flex flex-col items-center">
                   <div className="w-6 h-6 rounded-full mb-1">
                     <img src="/main_assets/icons/icon_group.png" alt="Team" />
@@ -59,7 +62,7 @@ const Out_Header = () => {
                 </Link>
               </li>
 
-              <li className="hover:text-[#F69332] transition">
+              <li className={`${isActive('/about') ? 'text-[#F69332]' : 'hover:text-[#F69332]'} transition`}>
                 <Link to="/about" className="flex flex-col items-center">
                   <div className="w-6 h-6 rounded-full mb-1">
                     <img src="/main_assets/icons/icon_about.png" alt="About" />
@@ -68,7 +71,7 @@ const Out_Header = () => {
                 </Link>
               </li>
 
-              <li className="hover:text-[#F69332] transition">
+              <li className={`${isActive('/contact') ? 'text-[#F69332]' : 'hover:text-[#F69332]'} transition`}>
                 <Link to="/contact" className="flex flex-col items-center">
                   <div className="w-6 h-6 rounded-full mb-1">
                     <img src="/main_assets/icons/icon_contact.png" alt="Contact" />
@@ -87,7 +90,7 @@ const Out_Header = () => {
                 <Link
                     to="/team"
                     onClick={closeMenu}
-                    className="block hover:text-[#F69332] transition flex justify-between items-center"
+                    className={`block transition flex justify-between items-center ${isActive('/team') ? 'text-[#F69332]' : 'hover:text-[#F69332]'}`}
                 >
                   <span className="md:hidden">Team</span>
                   <img src="/main_assets/icons/icon_team.png" alt="team-icon" className="w-5 h-5" />
@@ -97,7 +100,7 @@ const Out_Header = () => {
                 <Link
                     to="/about"
                     onClick={closeMenu}
-                    className="block hover:text-[#F69332] transition flex justify-between items-center"
+                    className={`block transition flex justify-between items-center ${isActive('/about') ? 'text-[#F69332]' : 'hover:text-[#F69332]'}`}
                 >
                   <span className="md:hidden">About</span>
                   <img src="/main_assets/icons/icon_about.png" alt="about-icon" className="w-5 h-5" />
@@ -107,7 +110,7 @@ const Out_Header = () => {
                 <Link
                     to="/contact"
                     onClick={closeMenu}
-                    className="block hover:text-[#F69332] transition flex justify-between items-center"
+                    className={`block transition flex justify-between items-center ${isActive('/contact') ? 'text-[#F69332]' : 'hover:text-[#F69332]'}`}
                 >
                   <span className="md:hidden">Contact</span>
                   <img src="/main_assets/icons/icon_contact.png" alt="contact-icon" className="w-5 h-5" />
@@ -115,7 +118,6 @@ const Out_Header = () => {
               </li>
             </ul>
         )}
-
       </header>
   );
 };

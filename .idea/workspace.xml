@@ -4,32 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c9418b6-7e31-4578-955e-484c89f8767b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/routes/info_pages/about.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/info_pages/contact.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/info_pages/team.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/utility/util_scroll_up.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main_assets/gifs/cat.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main_assets/gifs/dog.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main_assets/icons/icon_call.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main_assets/icons/icon_mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main_assets/images/image_ctu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main_assets/images/image_ctu_admin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main_assets/logo/logo_ctu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main_assets/team_profile/profile_abella.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main_assets/team_profile/profile_delapena.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main_assets/team_profile/profile_delima.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main_assets/team_profile/profile_lauglaug.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main_assets/team_profile/profile_lim.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main_assets/team_profile/profile_mahilom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main_assets/team_profile/profile_mangubat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main_assets/team_profile/profile_talingting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main_assets/team_profile/team_banner.png" afterDir="false" />
+    <list default="true" id="8c9418b6-7e31-4578-955e-484c89f8767b" name="Changes" comment="[Major Update v1.3 Alpha]&#10;+ Public Directories&#10;+ Team &amp; Contact Pages&#10;+ Added Functional Utility (Scroll Up)&#10;+ Added New Routes &#10;+ Added New Assets&#10;+ Added GIF&#10;~ Optimized Animations&#10;&#10;- JP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/components/out_header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/components/out_header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/landing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/landing.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/login.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,18 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "rexshimura"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rexshimura&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Yohhannn/Petmosphere_System_Frontend.git",
-    "accountId": "6a608f42-9ffe-4590-ac5e-66874d392c7c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Yohhannn/Petmosphere_System_Frontend.git&quot;,
+    &quot;accountId&quot;: &quot;6a608f42-9ffe-4590-ac5e-66874d392c7c&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -63,21 +40,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/School Coding/INTEGRATIVBE PROGRAMING/Petmosphere/Petmosphere_System_Frontend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\paul\\WebstormProjects\\Petmosphere_System_Frontend\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/School Coding/INTEGRATIVBE PROGRAMING/Petmosphere/Petmosphere_System_Frontend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\paul\\WebstormProjects\\Petmosphere_System_Frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\paul\WebstormProjects\Petmosphere_System_Frontend\public\main_assets\icons" />
@@ -107,11 +84,25 @@
       <workItem from="1743866993604" duration="169000" />
       <workItem from="1743867205034" duration="17000" />
       <workItem from="1743867224122" duration="123000" />
-      <workItem from="1743910373398" duration="11448000" />
+      <workItem from="1743910373398" duration="12099000" />
+      <workItem from="1744079397189" duration="641000" />
     </task>
+    <task id="LOCAL-00001" summary="[Major Update v1.3 Alpha]&#10;+ Public Directories&#10;+ Team &amp; Contact Pages&#10;+ Added Functional Utility (Scroll Up)&#10;+ Added New Routes &#10;+ Added New Assets&#10;+ Added GIF&#10;~ Optimized Animations&#10;&#10;- JP">
+      <option name="closed" value="true" />
+      <created>1743926782026</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743926782026</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[Major Update v1.3 Alpha]&#10;+ Public Directories&#10;+ Team &amp; Contact Pages&#10;+ Added Functional Utility (Scroll Up)&#10;+ Added New Routes &#10;+ Added New Assets&#10;+ Added GIF&#10;~ Optimized Animations&#10;&#10;- JP" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Major Update v1.3 Alpha]&#10;+ Public Directories&#10;+ Team &amp; Contact Pages&#10;+ Added Functional Utility (Scroll Up)&#10;+ Added New Routes &#10;+ Added New Assets&#10;+ Added GIF&#10;~ Optimized Animations&#10;&#10;- JP" />
   </component>
 </project>
