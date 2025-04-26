@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import 'animate.css';
 
@@ -10,6 +10,8 @@ export function meta() {
 }
 
 const Login: React.FC = () => {
+  const [showPassword, setShowPassword] = useState(false);
+
   return (
       <div
           className="relative flex flex-col items-center justify-center min-h-screen bg-cover bg-center bg-no-repeat bg-[url('/main_assets/images/bg_landing_phone.svg')] sm:bg-[url('/main_assets/images/bg_landing.svg')] animate__animated animate__fadeIn"
@@ -28,34 +30,70 @@ const Login: React.FC = () => {
               to="/"
               className="w-12 h-12 flex items-center justify-center bg-[#8E57B2] text-white rounded-full shadow-md hover:bg-[#F69332] transition duration-300 animate__animated animate__rotateIn"
           >
-            {/* Image as the icon */}
             <img
-                src="/main_assets/icons/icon_return.svg"  // Replace with the actual path to your SVG or image file
+                src="/main_assets/icons/icon_return.svg"
                 alt="Back"
                 className="w-6 h-6"
             />
           </Link>
 
-          <h1 className="text-3xl font-bold text-[#8E57B2] mb-6 text-center animate__animated animate__wobble">Login</h1>
+          <h1 className="text-3xl font-bold text-[#8E57B2] mb-6 text-center animate__animated animate__wobble">
+            Login
+          </h1>
+
           <form className="space-y-4">
             <div className="space-y-2">
-              <label htmlFor="email" className="block text-sm text-[#626262]">Email Address</label>
+              <label htmlFor="email" className="block text-sm text-[#626262]">
+                Email Address
+              </label>
+
+              {/*Auto Fill CSS Format*/}
+              <style>
+                {`input:-webkit-autofill {
+                  -webkit-text-fill-color: black !important;
+                  transition: background-color 5000s ease-in-out 0s;
+                  }`}
+              </style>
+
               <input
                   id="email"
                   type="email"
                   required
-                  className="w-full px-4 py-2 border border-[#8E57B2] rounded-md focus:outline-none focus:ring-2 focus:ring-[#F69332] animate__animated animate__slideInRight"
+                  className="w-full px-4 py-2 border border-[#8E57B2] rounded-md text-black focus:outline-none focus:ring-2 focus:ring-[#F69332] animate__animated animate__slideInRight"
               />
             </div>
 
-            <div className="space-y-2">
-              <label htmlFor="password" className="block text-sm text-[#626262]">Password</label>
+            {/* Password with Show/Hide */}
+            <div className="space-y-2 relative">
+              <label htmlFor="password" className="block text-sm text-[#626262]">
+                Password
+              </label>
+
+              {/*Auto Fill CSS Format*/}
+              <style>
+                {`input:-webkit-autofill {
+                  -webkit-text-fill-color: black !important;
+                  transition: background-color 5000s ease-in-out 0s;
+                  }`}
+              </style>
+
               <input
                   id="password"
-                  type="password"
+                  type={showPassword ? "text" : "password"}
                   required
-                  className="w-full px-4 py-2 border border-[#8E57B2] rounded-md focus:outline-none focus:ring-2 focus:ring-[#F69332] animate__animated animate__slideInRight"
+                  className="w-full px-4 py-2 border border-[#8E57B2] rounded-md text-black focus:outline-none focus:ring-2 focus:ring-[#F69332] animate__animated animate__slideInRight"
               />
+              <button
+                  type="button"
+                  onClick={() => setShowPassword(!showPassword)}
+                  className="absolute top-9 right-3 text-[#8E57B2] focus:outline-none animate__animated animate__bounceIn"
+              >
+                {showPassword ? (
+                    <img src="/main_assets/icons/icon_eye_open.png" alt="Hide" className="w-5 h-5" />
+                ) : (
+                    <img src="/main_assets/icons/icon_eye_closed.png" alt="Show" className="w-5 h-5" />
+                )}
+              </button>
             </div>
 
             <div className="flex justify-center mt-4">
@@ -69,7 +107,12 @@ const Login: React.FC = () => {
           </form>
 
           <div className="mt-6 text-center">
-            <p className="text-sm text-[#626262]">Don't have an account? <Link to="/signup" className="text-[#8E57B2] hover:text-[#F69332]">Sign Up</Link></p>
+            <p className="text-sm text-[#626262]">
+              Don't have an account?{" "}
+              <Link to="/signup" className="text-[#8E57B2] hover:text-[#F69332]">
+                Sign Up
+              </Link>
+            </p>
           </div>
         </div>
       </div>
