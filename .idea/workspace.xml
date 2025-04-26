@@ -4,12 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c9418b6-7e31-4578-955e-484c89f8767b" name="Changes" comment="[Update V1.4 - Alpha]&#10;+ Added about.tsx&#10;+ Updated Active Icons&#10;&#10;- JP">
-      <change afterPath="$PROJECT_DIR$/public/main_assets/icons/icon_eye_closed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main_assets/icons/icon_eye_open.png" afterDir="false" />
+    <list default="true" id="8c9418b6-7e31-4578-955e-484c89f8767b" name="Changes" comment="[Update V2.0.1 - Alpha]&#10;+ Updated Multiple UI&#10;- JP">
+      <change afterPath="$PROJECT_DIR$/app/routes/info_pages/alt_about.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/main_pages/account.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/main_pages/home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/main_pages/pets.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/main_pages/postsData.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/icons/icon_account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/icons/icon_account_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/icons/icon_chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/icons/icon_chat_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/icons/icon_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/icons/icon_home_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/icons/icon_pets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/icons/icon_pets_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/images/default_account_profile/bull-terrier.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/images/default_account_profile/cat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/images/default_account_profile/chicken.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/images/default_account_profile/dog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/images/default_account_profile/goat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/images/default_account_profile/kitten.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/images/default_account_profile/llama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/images/default_account_profile/mimi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/images/default_account_profile/mouse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/images/default_account_profile/parrot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/images/default_account_profile/rabbit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/images/default_account_profile/snowy-owl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/images/default_account_profile/unicorn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/images/default_account_profile/wolfy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/images/image_main_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/images/image_main_banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/images/image_main_banner3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/signup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/signup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/components/in_footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/components/in_footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/components/in_header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/components/in_header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/components/out_header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/components/out_header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/utility/util_web_version.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/utility/util_web_version.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +62,9 @@
     &quot;accountId&quot;: &quot;6a608f42-9ffe-4590-ac5e-66874d392c7c&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -60,11 +94,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\paul\WebstormProjects\Petmosphere_System_Frontend\public\main_assets\icons" />
       <recent name="C:\Users\paul\WebstormProjects\Petmosphere_System_Frontend\public\main_assets\images" />
-      <recent name="C:\Users\paul\WebstormProjects\Petmosphere_System_Frontend\public\main_assets\gifs" />
-      <recent name="C:\Users\paul\WebstormProjects\Petmosphere_System_Frontend\public\main_assets\team_profile" />
-      <recent name="C:\Users\paul\WebstormProjects\Petmosphere_System_Frontend\public\main_assets\logo" />
+      <recent name="C:\Users\paul\WebstormProjects\Petmosphere_System_Frontend\public\main_assets\icons" />
+      <recent name="C:\Users\paul\WebstormProjects\Petmosphere_System_Frontend\public\main_assets\images\defult_account_profile" />
+      <recent name="C:\Users\paul\WebstormProjects\Petmosphere_System_Frontend\app\routes\info_pages" />
+      <recent name="C:\Users\paul\WebstormProjects\Petmosphere_System_Frontend\app\routes\main_pages" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -90,7 +124,7 @@
       <workItem from="1743910373398" duration="12099000" />
       <workItem from="1744079397189" duration="641000" />
       <workItem from="1744095554497" duration="617000" />
-      <workItem from="1745643052611" duration="7072000" />
+      <workItem from="1745643052611" duration="15224000" />
     </task>
     <task id="LOCAL-00001" summary="[Major Update v1.3 Alpha]&#10;+ Public Directories&#10;+ Team &amp; Contact Pages&#10;+ Added Functional Utility (Scroll Up)&#10;+ Added New Routes &#10;+ Added New Assets&#10;+ Added GIF&#10;~ Optimized Animations&#10;&#10;- JP">
       <option name="closed" value="true" />
@@ -108,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745647098353</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[Update V1.5 - Alpha]&#10;+ Updated Login &amp; SignUp &#10;+ Added Functionality to Hide/Unhide Password&#10;+ Added Confirm Password&#10;+ Added New Icons for Hide / Unhide States&#10;&#10;- JP">
+      <option name="closed" value="true" />
+      <created>1745651506086</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745651506086</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +159,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[Major Update v1.3 Alpha]&#10;+ Public Directories&#10;+ Team &amp; Contact Pages&#10;+ Added Functional Utility (Scroll Up)&#10;+ Added New Routes &#10;+ Added New Assets&#10;+ Added GIF&#10;~ Optimized Animations&#10;&#10;- JP" />
     <MESSAGE value="[Update V1.4 - Alpha]&#10;+ Added about.tsx&#10;+ Updated Active Icons&#10;&#10;- JP" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Update V1.4 - Alpha]&#10;+ Added about.tsx&#10;+ Updated Active Icons&#10;&#10;- JP" />
+    <MESSAGE value="[Update V1.5 - Alpha]&#10;+ Updated Login &amp; SignUp &#10;+ Added Functionality to Hide/Unhide Password&#10;+ Added Confirm Password&#10;+ Added New Icons for Hide / Unhide States&#10;&#10;- JP" />
+    <MESSAGE value="[Update V2.0.1 - Alpha]&#10;+ Updated Multiple UI&#10;- JP" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Update V2.0.1 - Alpha]&#10;+ Updated Multiple UI&#10;- JP" />
   </component>
 </project>

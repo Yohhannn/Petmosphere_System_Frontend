@@ -108,7 +108,7 @@ const Out_Header = () => {
                 <Link
                     to="/team"
                     onClick={closeMenu}
-                    className={`transition flex justify-between items-center ${isActive('/team') ? 'text-[#F69332]' : 'hover:text-[#F69332]'}`}
+                    className={`transition flex justify-between items-center ${isActive('/team') ? 'text-[#fab36e]' : 'hover:text-[#fab36e]'}`}
                 >
                   <span className="md:hidden">Team</span>
                   <img
@@ -126,7 +126,7 @@ const Out_Header = () => {
                 <Link
                     to="/about"
                     onClick={closeMenu}
-                    className={`transition flex justify-between items-center ${isActive('/about') ? 'text-[#F69332]' : 'hover:text-[#F69332]'}`}
+                    className={`transition flex justify-between items-center ${isActive('/about') ? 'text-[#fab36e]' : 'hover:text-[#fab36e]'}`}
                 >
                   <span className="md:hidden">About</span>
                   <img
@@ -144,7 +144,7 @@ const Out_Header = () => {
                 <Link
                     to="/contact"
                     onClick={closeMenu}
-                    className={`transition flex justify-between items-center ${isActive('/contact') ? 'text-[#F69332]' : 'hover:text-[#F69332]'}`}
+                    className={`transition flex justify-between items-center ${isActive('/contact') ? 'text-[#fab36e]' : 'hover:text-[#fab36e]'}`}
                 >
                   <span className="md:hidden">Contact</span>
                   <img
