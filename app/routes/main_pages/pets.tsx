@@ -5,6 +5,13 @@ import In_Footer from "~/routes/components/in_footer";
 import {posts} from "~/routes/main_pages/postsData";
 import 'animate.css';
 
+export function meta() {
+    return [
+        { title: "( ✦ ) PETMOSPHERE - PETS" },
+        { name: "description", content: "See posts from other pet lovers who are looking for a home for their furry friends." },
+    ];
+}
+
 const Pets = () => {
     const [searchQuery, setSearchQuery] = useState('');
 

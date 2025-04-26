@@ -3,6 +3,13 @@ import Out_Header from "~/routes/components/out_header";
 import ScrollToTopButton from "~/routes/utility/util_scroll_up";
 import 'animate.css';
 
+export function meta() {
+    return [
+        { title: "( ✦ ) PETMOSPHERE - TEAM" },
+        { name: "description", content: "Who are behind PETMOSPHERE?" },
+    ];
+}
+
 const Team = () => {
     const teamMembers = [
         {
@@ -108,14 +115,14 @@ const Team = () => {
                             <div className="md:w-1/2">
                                 {/* Default for lg and above */}
                                 <img
-                                    src="main_assets/images/image_ctu_admin.png"
+                                    src="/main_assets/images/image_ctu_admin.png"
                                     alt="School"
                                     className="hidden md:block w-full h-auto object-cover"
                                 />
 
                                 {/* For sm and md screens */}
                                 <img
-                                    src="main_assets/images/image_ctu.png"
+                                    src="/main_assets/images/image_ctu.png"
                                     alt="School"
                                     className="block md:hidden w-full h-auto object-cover"
                                 />
@@ -124,7 +131,7 @@ const Team = () => {
                             <div className="md:w-1/2 p-6 md:p-10">
                                 <div className="flex items-center mb-4">
                                     <img
-                                        src="main_assets/logo/logo_ctu.png"
+                                        src="/main_assets/logo/logo_ctu.png"
                                         alt="School Logo"
                                         className="w-16 h-16 object-contain mr-4"
                                     />

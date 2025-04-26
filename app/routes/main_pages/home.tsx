@@ -5,6 +5,13 @@ import ScrollToTopButton from "~/routes/utility/util_scroll_up";
 import 'animate.css';
 import { posts } from "~/routes/main_pages/postsData";
 
+export function meta() {
+    return [
+        { title: "( ✦ ) PETMOSPHERE - HOME" },
+        { name: "description", content: "Discover your perfect pet match and make a difference by giving them a loving home." },
+    ];
+}
+
 const Home = () => {
     const [searchQuery] = useState('');
 

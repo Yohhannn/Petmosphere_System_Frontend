@@ -4,6 +4,13 @@ import In_Header from "~/routes/components/in_header";
 import In_Footer from "~/routes/components/in_footer";
 import ScrollToTopButton from "~/routes/utility/util_scroll_up";
 
+export function meta() {
+    return [
+        { title: "( ✦ ) PETMOSPHERE - ABOUT" },
+        { name: "description", content: "What is PETMOSPHERE?" },
+    ];
+}
+
 const Alt_AboutUs: React.FC = () => {
     return (
         <>

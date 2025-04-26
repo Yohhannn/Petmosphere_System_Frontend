@@ -1,9 +1,15 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import 'animate.css';
 import Out_Header from "~/routes/components/out_header";
 import Out_Footer from "~/routes/components/out_footer";
 import ScrollToTopButton from "~/routes/utility/util_scroll_up";
+
+export function meta() {
+    return [
+        { title: "( ✦ ) PETMOSPHERE - CONTACT" },
+        { name: "description", content: "call us here in PETMOSPHERE!" },
+    ];
+}
 
 const ContactUs: React.FC = () => {
     const [formData, setFormData] = useState({
@@ -73,7 +79,7 @@ const ContactUs: React.FC = () => {
                                 <ul className="space-y-4">
                                     <li className="flex items-center">
                                         <img
-                                            src="main_assets/icons/icon_call.png"
+                                            src="/main_assets/icons/icon_call.png"
                                             alt="Phone"
                                             className="w-6 h-6 mr-4"
                                         />
@@ -81,7 +87,7 @@ const ContactUs: React.FC = () => {
                                     </li>
                                     <li className="flex items-center">
                                         <img
-                                            src="main_assets/icons/icon_mail.png"
+                                            src="/main_assets/icons/icon_mail.png"
                                             alt="Email"
                                             className="w-6 h-6 mr-4"
                                         />

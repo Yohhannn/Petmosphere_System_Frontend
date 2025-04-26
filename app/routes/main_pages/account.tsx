@@ -4,6 +4,13 @@ import In_Footer from "~/routes/components/in_footer";
 import ScrollToTopButton from "~/routes/utility/util_scroll_up";
 import 'animate.css';
 
+export function meta() {
+    return [
+        { title: "( ✦ ) PETMOSPHERE - ACCOUNT" },
+        { name: "description", content: "Manage and update your personal details below." },
+    ];
+}
+
 const AccountInfo = () => {
     const account = {
         profile: 'https://via.placeholder.com/100', // Replace with actual profile pic if available
