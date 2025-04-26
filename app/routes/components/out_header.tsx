@@ -26,7 +26,7 @@ const Out_Header = () => {
           <div className="flex justify-between items-center">
             {/* Logo */}
             <Link to="/">
-              <h1 className="py-2 px-4 text-2xl font-bold cursor-pointer hover:text-[#F69332] transition-transform hover:scale-110">
+              <h1 className="py-2 px-4 text-2xl font-bold cursor-pointer hover:text-[#fab36e] transition-transform hover:scale-110">
                 <img
                     src="/main_assets/logo/logo_light.png"
                     alt="PETMOSPHERE Logo"
@@ -53,29 +53,47 @@ const Out_Header = () => {
 
             {/* Desktop Nav */}
             <ul className="hidden md:flex md:items-center md:space-x-6">
-              <li className={`${isActive('/team') ? 'text-[#F69332]' : 'hover:text-[#F69332]'} transition`}>
+              <li className={`${isActive('/team') ? 'text-[#fab36e]' : 'hover:text-[#fab36e]'} transition`}>
                 <Link to="/team" className="flex flex-col items-center">
-                  <div className="w-6 h-6 rounded-full mb-1">
-                    <img src="/main_assets/icons/icon_group.png" alt="Team" />
-                  </div>
+                  <img
+                      src={
+                        isActive('/team')
+                            ? '/main_assets/icons/icon_group_active.png'
+                            : '/main_assets/icons/icon_group.png'
+                      }
+                      alt="Team Icon"
+                      className="w-6 h-6 mb-1"
+                  />
                   Team
                 </Link>
               </li>
 
-              <li className={`${isActive('/about') ? 'text-[#F69332]' : 'hover:text-[#F69332]'} transition`}>
+              <li className={`${isActive('/about') ? 'text-[#fab36e]' : 'hover:text-[#fab36e]'} transition`}>
                 <Link to="/about" className="flex flex-col items-center">
-                  <div className="w-6 h-6 rounded-full mb-1">
-                    <img src="/main_assets/icons/icon_about.png" alt="About" />
-                  </div>
+                  <img
+                      src={
+                        isActive('/about')
+                            ? '/main_assets/icons/icon_about_active.png'
+                            : '/main_assets/icons/icon_about.png'
+                      }
+                      alt="About Icon"
+                      className="w-6 h-6 mb-1"
+                  />
                   About
                 </Link>
               </li>
 
-              <li className={`${isActive('/contact') ? 'text-[#F69332]' : 'hover:text-[#F69332]'} transition`}>
+              <li className={`${isActive('/contact') ? 'text-[#fab36e]' : 'hover:text-[#fab36e]'} transition`}>
                 <Link to="/contact" className="flex flex-col items-center">
-                  <div className="w-6 h-6 rounded-full mb-1">
-                    <img src="/main_assets/icons/icon_contact.png" alt="Contact" />
-                  </div>
+                  <img
+                      src={
+                        isActive('/contact')
+                            ? '/main_assets/icons/icon_contact_active.png'
+                            : '/main_assets/icons/icon_contact.png'
+                      }
+                      alt="Contact Icon"
+                      className="w-6 h-6 mb-1"
+                  />
                   Contact
                 </Link>
               </li>
@@ -90,30 +108,54 @@ const Out_Header = () => {
                 <Link
                     to="/team"
                     onClick={closeMenu}
-                    className={`block transition flex justify-between items-center ${isActive('/team') ? 'text-[#F69332]' : 'hover:text-[#F69332]'}`}
+                    className={`transition flex justify-between items-center ${isActive('/team') ? 'text-[#F69332]' : 'hover:text-[#F69332]'}`}
                 >
                   <span className="md:hidden">Team</span>
-                  <img src="/main_assets/icons/icon_team.png" alt="team-icon" className="w-5 h-5" />
+                  <img
+                      src={
+                        isActive('/team')
+                            ? '/main_assets/icons/icon_group_active.svg'
+                            : '/main_assets/icons/icon_group_default.svg'
+                      }
+                      alt="team-icon"
+                      className="w-5 h-5"
+                  />
                 </Link>
               </li>
               <li>
                 <Link
                     to="/about"
                     onClick={closeMenu}
-                    className={`block transition flex justify-between items-center ${isActive('/about') ? 'text-[#F69332]' : 'hover:text-[#F69332]'}`}
+                    className={`transition flex justify-between items-center ${isActive('/about') ? 'text-[#F69332]' : 'hover:text-[#F69332]'}`}
                 >
                   <span className="md:hidden">About</span>
-                  <img src="/main_assets/icons/icon_about.png" alt="about-icon" className="w-5 h-5" />
+                  <img
+                      src={
+                        isActive('/about')
+                            ? '/main_assets/icons/icon_about_active.svg'
+                            : '/main_assets/icons/icon_about_default.svg'
+                      }
+                      alt="about-icon"
+                      className="w-5 h-5"
+                  />
                 </Link>
               </li>
               <li>
                 <Link
                     to="/contact"
                     onClick={closeMenu}
-                    className={`block transition flex justify-between items-center ${isActive('/contact') ? 'text-[#F69332]' : 'hover:text-[#F69332]'}`}
+                    className={`transition flex justify-between items-center ${isActive('/contact') ? 'text-[#F69332]' : 'hover:text-[#F69332]'}`}
                 >
                   <span className="md:hidden">Contact</span>
-                  <img src="/main_assets/icons/icon_contact.png" alt="contact-icon" className="w-5 h-5" />
+                  <img
+                      src={
+                        isActive('/contact')
+                            ? '/main_assets/icons/icon_call_active.svg'
+                            : '/main_assets/icons/icon_call_default.svg'
+                      }
+                      alt="contact-icon"
+                      className="w-5 h-5"
+                  />
                 </Link>
               </li>
             </ul>

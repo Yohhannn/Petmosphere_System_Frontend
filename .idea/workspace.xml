@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c9418b6-7e31-4578-955e-484c89f8767b" name="Changes" comment="[Major Update v1.3 Alpha]&#10;+ Public Directories&#10;+ Team &amp; Contact Pages&#10;+ Added Functional Utility (Scroll Up)&#10;+ Added New Routes &#10;+ Added New Assets&#10;+ Added GIF&#10;~ Optimized Animations&#10;&#10;- JP">
+    <list default="true" id="8c9418b6-7e31-4578-955e-484c89f8767b" name="Changes" comment="[Update V1.4 - Alpha]&#10;+ Added about.tsx&#10;+ Updated Active Icons&#10;&#10;- JP">
+      <change afterPath="$PROJECT_DIR$/app/routes/utility/util_web_version.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/icons/icon_about_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/icons/icon_contact_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/icons/icon_group_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_assets/images/image_about.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/components/out_footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/components/out_footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/components/out_header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/components/out_header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/info_pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/info_pages/about.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +64,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\paul\WebstormProjects\Petmosphere_System_Frontend\public\main_assets\images" />
       <recent name="C:\Users\paul\WebstormProjects\Petmosphere_System_Frontend\public\main_assets\icons" />
       <recent name="C:\Users\paul\WebstormProjects\Petmosphere_System_Frontend\public\main_assets\gifs" />
       <recent name="C:\Users\paul\WebstormProjects\Petmosphere_System_Frontend\public\main_assets\team_profile" />
-      <recent name="C:\Users\paul\WebstormProjects\Petmosphere_System_Frontend\public\main_assets\images" />
       <recent name="C:\Users\paul\WebstormProjects\Petmosphere_System_Frontend\public\main_assets\logo" />
     </key>
   </component>
@@ -86,6 +93,8 @@
       <workItem from="1743867224122" duration="123000" />
       <workItem from="1743910373398" duration="12099000" />
       <workItem from="1744079397189" duration="641000" />
+      <workItem from="1744095554497" duration="617000" />
+      <workItem from="1745643052611" duration="3912000" />
     </task>
     <task id="LOCAL-00001" summary="[Major Update v1.3 Alpha]&#10;+ Public Directories&#10;+ Team &amp; Contact Pages&#10;+ Added Functional Utility (Scroll Up)&#10;+ Added New Routes &#10;+ Added New Assets&#10;+ Added GIF&#10;~ Optimized Animations&#10;&#10;- JP">
       <option name="closed" value="true" />
@@ -103,6 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[Major Update v1.3 Alpha]&#10;+ Public Directories&#10;+ Team &amp; Contact Pages&#10;+ Added Functional Utility (Scroll Up)&#10;+ Added New Routes &#10;+ Added New Assets&#10;+ Added GIF&#10;~ Optimized Animations&#10;&#10;- JP" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Major Update v1.3 Alpha]&#10;+ Public Directories&#10;+ Team &amp; Contact Pages&#10;+ Added Functional Utility (Scroll Up)&#10;+ Added New Routes &#10;+ Added New Assets&#10;+ Added GIF&#10;~ Optimized Animations&#10;&#10;- JP" />
+    <MESSAGE value="[Update V1.4 - Alpha]&#10;+ Added about.tsx&#10;+ Updated Active Icons&#10;&#10;- JP" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Update V1.4 - Alpha]&#10;+ Added about.tsx&#10;+ Updated Active Icons&#10;&#10;- JP" />
   </component>
 </project>
